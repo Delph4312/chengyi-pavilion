@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.vscode/
+npm-debug.log*
+
+# 单个视频超过 GitHub 100MB 文件上限，保留在本地，不纳入仓库
+public/video/*.mp4
